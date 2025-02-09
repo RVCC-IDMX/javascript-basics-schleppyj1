@@ -27,6 +27,8 @@
 */
 // * Add your code BELOW here
 
+let myName;
+
 // * Don't mess with the test code below here!
 test('myName', () => {
   expect(myName).toBeUndefined();
@@ -45,6 +47,8 @@ test('myName', () => {
 */
 // * Add your code BELOW here
 
+let age = 22;
+
 // * Don't mess with the test code below here!
 test('age', () => {
   expect(age).toBe(22);
@@ -62,6 +66,8 @@ test('age', () => {
    TODO: Use the const keyword to create a constant called daysInWeek and assign it the number literal 7.
 */
 // * Add your code BELOW here
+
+const daysInWeek = 7;
 
 // * Don't mess with the test code below here!
 test('daysInWeek', () => {
@@ -87,6 +93,9 @@ test('daysInWeek', () => {
    TODO: DO NOT use the number literal 7 directly.
 */
 // * Add your code BELOW here
+
+let myWorkDays;
+myWorkDays = daysInWeek;
 
 // * Don't mess with the test code below here!
 test('myWorkDays', () => {
@@ -114,6 +123,10 @@ test('myWorkDays', () => {
 */
 // * Add your code BELOW here
 
+var oops;
+var sillyMath;
+sillyMath = oops * 2;
+
 // * Don't mess with the test code below here!
 test('sillyMath', () => {
   expect(oops).toBeUndefined();
@@ -134,6 +147,9 @@ test('sillyMath', () => {
 */
 // * Add your code BELOW here
 
+var sillyString;
+sillyString = 'Hello, undefined';
+
 // * Don't mess with the test code below here!
 test('sillyString', () => {
   expect(oops).toBeUndefined();
@@ -151,6 +167,10 @@ test('sillyString', () => {
    (Make sure to use let for variables and const for constants.)
 */
 // * Add your code BELOW here
+
+let year = 2022;
+var firstName = 'John';
+const taxRate = 0.2;
 
 // * Don't mess with the test code below here!
 test('year', () => {

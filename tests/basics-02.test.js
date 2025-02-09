@@ -33,6 +33,8 @@
 */
 // * Add your code BELOW here
 
+let myClass = 'JavaScript is Awesome!';
+
 // * Don't mess with the test code below here!
 test('myClass', () => {
   expect(typeof myClass).toBe('string');
@@ -51,6 +53,8 @@ test('myClass', () => {
 */
 // * Add your code BELOW here
 
+let emptyString = '';
+
 // * Don't mess with the test code below here!
 test('emptyString', () => {
   expect(typeof emptyString).toBe('string');
@@ -68,6 +72,8 @@ test('emptyString', () => {
 */
 // * Add your code BELOW here
 
+let petName = 'Flower';
+
 // * Don't mess with the test code below here!
 test('petName', () => {
   expect(typeof petName).toBe('string');
@@ -84,6 +90,8 @@ test('petName', () => {
    TODO: Use the const keyword to create a constant called firstLetterIsA and assign it any word that starts with a capital A.
 */
 // * Add your code BELOW here
+
+const firstLetterIsA = 'Apple';
 
 // * Don't mess with the test code below here!
 test('firstLetterIsA', () => {
@@ -104,6 +112,8 @@ test('firstLetterIsA', () => {
 */
 // * Add your code BELOW here
 
+let counting = 'one\ttwo';
+
 // * Don't mess with the test code below here!
 test('counting', () => {
   expect(typeof counting).toBe('string');
@@ -122,6 +132,8 @@ test('counting', () => {
    TODO: Use the let keyword to create a variable called mySentence and assign it to 'Hello, ' concatenated with petName.
 */
 // * Add your code BELOW here
+
+let mySentence = 'Hello, ' + petName;
 
 // * Don't mess with the test code below here!
 test('mySentence', () => {
@@ -143,6 +155,8 @@ test('mySentence', () => {
 */
 // * Add your code BELOW here
 
+let helloPet = `Hello, ${petName}`;
+
 // * Don't mess with the test code below here!
 test('helloPet', () => {
   expect(typeof helloPet).toBe('string');
@@ -163,6 +177,9 @@ test('helloPet', () => {
    NOTE: The test ensures that thisMonth no longer equals 'I dunno!'.
 */
 // * Add your code BELOW here
+
+let thisMonth = 'I dunno!';
+thisMonth = 'September';
 
 // * Don't mess with the test code below here!
 test('thisMonth', () => {
@@ -186,6 +203,11 @@ test('thisMonth', () => {
 */
 // * Add your code BELOW here
 
+let year = 2001;
+let firstName = 'John';
+let lastName = 'Smith';
+let message = `Hi, my name is ${firstName} ${lastName} and I was born in ${year}`;
+
 // * Don't mess with the test code below here!
 test('creating a message', () => {
   expect(typeof message).toBe('string');
@@ -202,6 +224,10 @@ test('creating a message', () => {
 */
 // * Add your code BELOW here
 
+let tax = 8.25;
+let price = 100;
+let total = `Your total including tax is $${price + tax}`;
+
 // * Don't mess with the test code below here!
 test('creating a total', () => {
   expect(typeof total).toBe('string');
@@ -216,6 +242,10 @@ test('creating a total', () => {
        '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
 */
 // * Add your code BELOW here
+
+let heading1 = 'JavaScript';
+let heading2 = 'HTML';
+let html = `<h1>${heading1}</h1><h2>${heading2}</h2><p>This is a paragraph</p>`;
 
 // * Don't mess with the test code below here!
 test('html', () => {

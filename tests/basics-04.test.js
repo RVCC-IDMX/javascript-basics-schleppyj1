@@ -36,6 +36,10 @@
 */
 // * Add your code BELOW here
 
+const a = 4;
+const b = 6;
+const c = a + b;
+
 // * Don't mess with the test code below here!
 test('arithmetic sum', () => {
   expect(typeof a).toBe('number');
@@ -65,6 +69,8 @@ test('arithmetic sum', () => {
 */
 // * Add your code BELOW here
 
+let rnd = Math.random();
+
 // * Don't mess with the test code below here!
 test('rnd', () => {
   expect(typeof rnd).toBe('number');
@@ -86,6 +92,8 @@ test('rnd', () => {
    TODO: ensuring it is between 0 and 5 (use Math.floor appropriately).
 */
 // * Add your code BELOW here
+
+let randomInt = Math.random() * Math.floor(0, 1, 2, 3, 4);
 
 // * Don't mess with the test code below here!
 vi.spyOn(global.Math, 'random').mockReturnValue(0.9);
@@ -110,6 +118,9 @@ test('randomInt', () => {
    TODO: In line 2, declare a variable called numRounded and assign it the value of num rounded down (use Math.floor).
 */
 // * Add your code BELOW here
+
+const num = 17.89;
+let numRounded = Math.floor(num);
 
 // * Don't mess with the test code below here!
 test('numRounded', () => {
@@ -142,6 +153,13 @@ test('numRounded', () => {
 */
 // * Add your code BELOW here
 
+let rounding1 = 5.95;
+rounding1 = Math.round(5.95);
+let rounding2 = 5.5;
+rounding2 = Math.round(5.5);
+let rounding3 = 5.05;
+rounding3 = Math.round(5.05);
+
 // * Don't mess with the test code below here!
 test('rounding', () => {
   expect(typeof rounding1).toBe('number');
@@ -164,6 +182,9 @@ test('rounding', () => {
    TODO: In line 2, declare a constant called bakersDozen and assign it the result of parseInt(orderBagels).
 */
 // * Add your code BELOW here
+
+let orderBagels = '13 is a Baker\'s Dozen';
+const bakersDozen = parseInt(orderBagels);
 
 // * Don't mess with the test code below here!
 test('bakersDozen', () => {
@@ -190,6 +211,9 @@ test('bakersDozen', () => {
    TODO: of calling myPi.toFixed(4) to get a string with four decimal places.
 */
 // * Add your code BELOW here
+
+const myPi = 3.141592653589793;
+const myPiFixed = myPi.toFixed(4);
 
 // * Don't mess with the test code below here!
 test('myPiFixed', () => {
@@ -219,6 +243,8 @@ test('myPiFixed', () => {
    TODO: the value of myPiFixed converted to a number using the unary + operator.
 */
 // * Add your code BELOW here
+
+const sliceOfPi = +myPiFixed;
 
 // * Don't mess with the test code below here!
 test('sliceOfPi', () => {
